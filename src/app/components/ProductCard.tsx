@@ -1,3 +1,7 @@
+import styles from './ProductCard.module.css'
+
+styles
+
 function ProductCard() {
     return (
         <div>

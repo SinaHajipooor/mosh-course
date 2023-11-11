@@ -10,7 +10,6 @@ async function UsersPage() {
         next: { revalidate: 10 }
     });
     const users: User[] = await response.json()
-
     // ui
     return (
         <>
