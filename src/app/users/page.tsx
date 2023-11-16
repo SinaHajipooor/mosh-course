@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 // define the type of each user 
 interface User {
     id: number;
