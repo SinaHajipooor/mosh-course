@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 // define the type of each user 
 interface User {
     id: number;
@@ -20,6 +22,8 @@ async function UsersPage() {
                     users.map((user: User) => <li key={user.id}>{user.name}</li>)
                 }
             </ul>
+            <br />
+            <br />
         </>
     )
 }
