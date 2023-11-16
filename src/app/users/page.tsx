@@ -7,7 +7,7 @@ interface User {
 async function UsersPage() {
     // fetch users
     const response = await fetch('https://jsonplaceholder.typicode.com/users', {
-        next: { revalidate: 10 }
+        next: { revalidate: 15 },
     });
     const users: User[] = await response.json()
     // ui
