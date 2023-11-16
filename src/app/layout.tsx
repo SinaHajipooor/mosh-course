@@ -18,6 +18,8 @@ export default function RootLayout({
                 <div style={{ color: 'red', fontWeight: 800, fontSize: '25px' }}>
                     <Link href='/' >Home</Link>
                     <Link href='/users' style={{ marginLeft: '50px' }}>users</Link>
+                    <Link href='/admin' style={{ marginLeft: '50px' }}>admins</Link>
+
                     <br />
                     <br />
                 </div>
